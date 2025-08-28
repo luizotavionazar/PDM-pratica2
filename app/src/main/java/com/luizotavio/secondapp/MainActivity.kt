@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         // 2. Configurar um "ouvinte de clique" para o botão
         meuBotao.setOnClickListener{
             // 3. Ação a ser executada quando o botão for clicado
-            Toast.makeText(this, "Bem-vindo ao meu App!", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Bem-vindo ao meu App!", Toast.LENGTH_SHORT).show()
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
